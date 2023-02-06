@@ -10,13 +10,13 @@ $(document).on('keydown', function () {
   if (level === 0) {
     nextSequence();
     gameStarted = true;
-    setTimeout(showHideInput, 500);
-    
+    setTimeout(showHideInput, 10);
   }
 })
 
 function showHideInput () {
   $('.input').hide();
+  $('.title2').hide();
 }
 
 // document.querySelector('.start-btn').addEventListener('click', function(){ 
@@ -138,6 +138,7 @@ function startOver() {
   continueGame = true;
   gameStarted = false;
   $('.input').show();
+  $('.title2').show();
 }
 
 
