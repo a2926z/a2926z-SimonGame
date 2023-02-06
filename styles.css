@@ -22,6 +22,7 @@ body {
 .input {
   height: 50px;
   background-color: gray;
+  font-size: 40px;
 }
 
 .container {
